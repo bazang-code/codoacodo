@@ -1,3 +1,122 @@
-section {
-    background-color: blue;
+
+header {
+   /*  background-color: rgb(127, 240, 255); */
+   background-color: yellow;
+    margin: 30px;
+}
+
+body {
+    background-color: rgb(127, 240, 255);
+    margin: 30px;
+    /*color: white;*/
+    /*background-image: url("/Imagenes/soporte_remoto.jpg");*/
+}
+main{
+    margin: 30px;
+}
+
+footer {
+    /*background-color: rgb(0, 162, 255);*/
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    min-height: 10vh;
+}
+
+.nav_actual {
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(127, 240, 255);
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px;
+    border-color: gray;
+    border-style: double;
+}
+
+.nav {
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 127, 255);
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.nav:hover {
+    opacity: 1;
+    background-color: rgb(226, 110, 154);
+}
+
+h1 {
+    background-color: rgb(127, 208, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px;l
+}
+
+a {
+    background-color: rgb(127, 168, 255); 
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+p {
+    font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+}
+
+li {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+blockquote {
+    background: #eee;
+    border-radius: 20px;
+    margin: 32px 0;
+    }
+
+blockquote p {
+    padding: 30px;
+    }
+
+cite {
+    margin: 16px 32px;
+    }
+
+blockquote p::before {
+    content: '\201C';
+    }
+
+blockquote p::after {
+    content: '\201D';
+    }
+        
+
+
+/* PRUEBA DE ESPECIFICIDADES -> Pesos de menor a mayor: Universales; Etiquetas; Clase; Id; Estilos en linea */
+.test {/* se llama con class dentro de la etiqueta */
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#test2 {/* se llama con id dentro de la etiqueta */
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
 }
