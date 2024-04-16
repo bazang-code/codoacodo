@@ -1,18 +1,10 @@
-
-header {
-   background-color: rgb(127, 240, 255);
-   margin: 30px;
-}
-
-body {
+body, header, main, footer {
     background-color: rgb(127, 240, 255);
-    margin: 30px;
-    /*color: white;*/
-    /*background-image: url("/Imagenes/soporte_remoto.jpg");*/
+    margin: 1.5rem;
+    min-width: 1100px;
+    border: 3px green solid;
 }
-main{
-    margin: 30px;
-}
+
 
 footer {
     /*background-color: rgb(0, 162, 255);*/
@@ -20,12 +12,11 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    margin: 30px;
     min-height: 10vh;
 }
 
 .nav_actual {
-    font-size: 14pt;
+    font-size: 10pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(127, 240, 255);
     color: rgb(0, 0, 255);
@@ -38,7 +29,7 @@ footer {
 }
 
 .nav {
-    font-size: 14pt;
+    font-size: 10pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(214, 127, 255);
     color: blue;
@@ -58,7 +49,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     border-radius: 5px;
-    border: 2px;l
+    border: 2px;
 }
 
 a {
